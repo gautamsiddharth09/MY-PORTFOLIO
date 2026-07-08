@@ -27,6 +27,7 @@ import {
 import "./App.css";
 
 const [activeLink, setActiveLink] = useState("#home");
+
 const navLinks = [
   { label: "Home", href: "#home" },
   { label: "Projects", href: "#projects" },
