@@ -26,7 +26,6 @@ import {
 
 import "./App.css";
 
-const [activeLink, setActiveLink] = useState("#home");
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -435,6 +434,8 @@ function App() {
   const [projectFilter, setProjectFilter] = useState("All");
   const [projectSearch, setProjectSearch] = useState("");
   const [activeProject, setActiveProject] = useState(null);
+  const [activeLink, setActiveLink] = useState("#home");
+
 
   const categories = useMemo(
     () => [
